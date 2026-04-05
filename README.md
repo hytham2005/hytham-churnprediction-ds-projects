@@ -11,15 +11,15 @@ account data, and subscribed services. The target variable is to find out whethe
 
 **My work**
 
-- I Cleaned the dataset by handling missing values, removing duplicates, dropping unnecessary columns, and converting the datatype of TotalCharges column from string to float. 
+- I cleaned the dataset by handling missing values, removing duplicates, dropping unnecessary columns, and converting the datatype of TotalCharges column from string to float. 
 
-- I Scaled values of float columns between 0 and 1.
+- I scaled values of float columns between 0 and 1.
 
-- I Fixed the class imbalance issue since only 26% of customers actually churned.
+- I fixed the class imbalance issue since only 26% of customers actually churned.
 
-- I Compared two resampling techniques: SMOTE and SMOTEENN.
+- I compared two resampling techniques: SMOTE and SMOTEENN.
 
-- I Trained and evaluated three models: Logistic Regression, Random Forest, and XGBoost.
+- I trained and evaluated three models: Logistic Regression, Random Forest, and XGBoost.
 
 **Results**
 
