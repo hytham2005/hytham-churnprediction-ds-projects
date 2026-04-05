@@ -34,7 +34,7 @@ account data, and subscribed services. The target variable is to find out whethe
 
 **Best Model**
 
-Logistic Regression with SMOTEENN got the best recall of 84%. I chose recall as the main metric because loosing a customer who is about to churn is much worse
+Logistic Regression with SMOTEENN got the best recall of 84%. I chose recall as the main metric because losing a customer who is about to churn is much worse
 than mistakenly flagging one who stays.
 
 **Tools**
