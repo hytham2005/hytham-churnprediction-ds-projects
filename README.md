@@ -1,2 +1,2 @@
-# Hytham-ds-projects
+# Churn prediction
 Data Science Projects
