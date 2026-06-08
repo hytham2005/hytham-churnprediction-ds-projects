@@ -28,7 +28,7 @@ account data, and subscribed services. The target variable is to find out whethe
 | Logistic Regression | SMOTE | 75% | 52% | 75% |
 | Random Forest | SMOTE | 54% | 58% | 78% |
 | XGBoost | SMOTE | 51% | 58% | 77% |
-| Logistic Regression | SMOTEENN | 85% | 46% | 70% |
+| Logistic Regression | SMOTEENN | 84% | 46% | 70% |
 | Random Forest | SMOTEENN | 75% | 51% | 74% |
 | XGBoost | SMOTEENN | 74% | 52% | 75% |
 
