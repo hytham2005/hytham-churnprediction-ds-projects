@@ -23,19 +23,19 @@ account data, and subscribed services. The target variable is to find out whethe
 
 **Results**
 
-| Model | Resampling | Recall | Precision | Accuracy |
+| Model | Resampling | Recall | Precision |Accuracy | Train Accuracy | Test Accuracy |
 |---|---|---|---|---|
-| Logistic Regression | SMOTE | 75% | 52% | 75% |
-| Random Forest | SMOTE | 54% | 58% | 78% |
-| XGBoost | SMOTE | 51% | 58% | 77% |
-| Logistic Regression | SMOTEENN | 84% | 46% | 70% |
-| Random Forest | SMOTEENN | 75% | 51% | 74% |
-| XGBoost | SMOTEENN | 74% | 52% | 75% |
+| Logistic Regression | SMOTE | 75% | 52% | 75% | 78% | 75% |
+| Random Forest | SMOTE | 54% | 58% | 78% | 99% | 77% |
+| XGBoost | SMOTE | 51% | 58% | 77% | 94% | 77% |
+| Logistic Regression | SMOTEENN | 84% | 46% | 70% | 91% | 69% |
+| Random Forest | SMOTEENN | 75% | 51% | 74% | 100% | 74% |
+| XGBoost | SMOTEENN | 74% | 52% | 75% | 100% | 74% |
 
 **Best Model**
 
 Logistic Regression with SMOTEENN got the best recall of 84%. I chose recall as the main metric because losing a customer who is about to churn is much worse
-than mistakenly flagging one who stays.
+than mistakenly flagging one who stays; However, we can notice that there is signifciant overfitting since a train accuracy of 91% is signficantly higher than a test accuracy of 69%. I understand the limitation of trying to avoid overfitting for improving metrics like recall.
 
 **Tools**
 -Programming Language: Python
