@@ -24,7 +24,7 @@ account data, and subscribed services. The target variable is to find out whethe
 **Results**
 
 | Model | Resampling | Recall | Precision |Accuracy | Train Accuracy | Test Accuracy |
-|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | Logistic Regression | SMOTE | 75% | 52% | 75% | 78% | 75% |
 | Random Forest | SMOTE | 54% | 58% | 78% | 99% | 77% |
 | XGBoost | SMOTE | 51% | 58% | 77% | 94% | 77% |
